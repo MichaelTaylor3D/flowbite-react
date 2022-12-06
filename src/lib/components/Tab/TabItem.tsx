@@ -5,6 +5,7 @@ export interface TabItemProps extends PropsWithChildren<Omit<ComponentProps<'div
   active?: boolean;
   disabled?: boolean;
   icon?: FC<ComponentProps<'svg'>>;
+  onClick?: any;
 }
 
-export const TabItem: FC<TabItemProps> = ({ children, className }) => <div className={className}>{children}</div>;
+export const TabItem: FC<TabItemProps> = ({ children, className }) => <div onClick={onClick || () => {}} className={className}>{children}</div>;
