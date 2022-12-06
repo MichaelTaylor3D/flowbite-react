@@ -1,5 +1,5 @@
 {
-  "name": "flowbite-react",
+  "name": "flowbite-react-michaels-edit",
   "version": "0.3.7",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
